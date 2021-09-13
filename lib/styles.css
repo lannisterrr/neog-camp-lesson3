@@ -6,7 +6,7 @@ html {
   margin: 0;
   border: 0;
   font-family: 'Josefin Sans', sans-serif;
-  --primary-color: #047857;
+  --primary-color: #059669;
   --off-white: #f3f4f6;
   --dark-gray: #6b7280;
 }
@@ -89,15 +89,24 @@ hr {
   font-weight: bold;
 }
 
-/* section */
+/* header */
 
-.section {
-  text-align: center;
+.hero {
   padding: 2rem;
-  margin: 2rem 0px;
-  border-radius: 1rem;
+  text-align: center;
 }
 
-.ow {
-  background-color: var(--off-white);
+.hero .hero-img {
+  max-width: 400px;
+  display: block;
+  margin: auto;
+}
+
+.hero .hero-heading {
+  padding-top: 1rem;
+  color: var(--dark-gray);
+}
+
+.hero .hero-heading .heading-inverted {
+  color: var(--primary-color);
 }
