@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
-html {
+html,
+body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -93,7 +94,6 @@ hr {
 
 .hero {
   padding: 2rem;
-  text-align: center;
 }
 
 .hero .hero-img {
@@ -105,6 +105,7 @@ hr {
 .hero .hero-heading {
   padding-top: 1rem;
   color: var(--dark-gray);
+  text-align: center;
 }
 
 .hero .hero-heading .heading-inverted {
@@ -123,4 +124,26 @@ hr {
 
 .ow {
   background-color: var(--off-white);
+}
+
+/* footer */
+.footer {
+  background-color: var(--primary-color);
+  padding: 2rem 1rem;
+  text-align: center;
+  color: white;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.footer .link {
+  color: white;
+}
+
+.footer .link:hover {
+  color: black;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
 }
